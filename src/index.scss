@@ -1,0 +1,37 @@
+@import './components/zeroing.scss'; // css reset
+@import './components/Header/header.scss'; // Header style
+@import './components/Hero/hero.scss'; // hero style
+@import './components/Catalog/catalog.scss'; // catalog style
+@import './components/Sketch/sketch.scss'; // sketch style
+@import './components/Ask_A_Question/ask_A_Question.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  --gray-text: #2e363e;
+}
+
+* {
+  color: #ffffff;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 143%;
+  font-style: normal;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  position: relative;
+  padding: 23px 0px 0px 0px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 1210px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 15px 0px 15px;
+}
