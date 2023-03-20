@@ -16,15 +16,13 @@
   }
   // .question-block__question-bait
   &__question-bait {
-    li {
-      display: flex;
-      gap: 12px;
-      &::before {
-        content: '';
-        background-color: #5d6afb;
-        border-radius: 100%;
-        min-width: 10px;
-        max-height: 10px;
+    ul {
+      padding: 0px 0px 0px 30px;
+      li {
+        list-style: disc;
+        &::marker {
+          color: #5d6afb;
+        }
       }
     }
     @media (max-width: 426px) {
