@@ -15,7 +15,7 @@ const Catalog = () => {
 	const berry = "berry.png"
 	const leaf = "leaf.png"
 	return (
-		<div className="catalog ">
+		<section className="catalog ">
 			<div className='wrapper'>
 				<div className='catalog__img-berry'>
 					<img src={berry} alt="" />
@@ -200,7 +200,7 @@ const Catalog = () => {
 			<div className='catalog__cloud-block'>
 				<img className='catalog__cloud' src={cloud} alt="" />
 			</div>
-		</div>
+		</section>
 	);
 };
 

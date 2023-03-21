@@ -1,5 +1,6 @@
 import React from "react";
 import woman from './images/woman.png'
+import cloud from './images/03.png'
 
 export const Ask_A_Question = () => {
 	return <section className="ask-a-question question">
@@ -30,6 +31,9 @@ export const Ask_A_Question = () => {
 				</div>
 				<img src={woman} alt="" />
 			</div>
+		</div>
+		<div>
+			<img className="question-cloud" src={cloud} alt="" />
 		</div>
 	</section>;
 };
