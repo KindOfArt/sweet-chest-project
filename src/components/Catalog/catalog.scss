@@ -7,11 +7,13 @@
   }
   position: relative;
   .catalog__cloud-block {
-    position: relative;
     .catalog__cloud {
+      z-index: -2;
       position: absolute;
+      object-fit: cover;
       width: 100%;
       height: 330px;
+      bottom: -330px;
     }
   }
 

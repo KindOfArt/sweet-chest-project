@@ -1,10 +1,84 @@
 .question {
   .wrapper {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     > * {
       flex: 0 1 50%;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      width: 152px;
+      height: 152px;
+      background-image: url('../berry.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      object-fit: cover;
+      top: 150px;
+      right: 390px;
+      filter: blur(6.5px);
+      transform: rotate(-53.18deg);
+      z-index: -2;
+    }
+    .leaf-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      i:first-child {
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        background-image: url('../leaf.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+        top: 150px;
+        right: 120.54px;
+        filter: blur(13.5px);
+        transform: rotate(150deg);
+        z-index: -2;
+      }
+      i {
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        background-image: url('../leaf.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+        top: 160px;
+        right: 81.16px;
+        filter: blur(13.5px);
+        transform: rotate(165deg);
+        z-index: -2;
+      }
+      i:last-child {
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        background-image: url('../leaf.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        object-fit: cover;
+        top: 200px;
+        right: 51.39px;
+        filter: blur(13.5px);
+        transform: rotate(-180deg);
+        z-index: -2;
+      }
+      @media (max-width: 426px) {
+        & {
+          display: none;
+        }
+      }
     }
   }
 }
@@ -25,7 +99,7 @@
         }
       }
     }
-    @media (max-width: 426px) {
+    @media (max-width: 769px) {
       width: 100vw;
       padding: 0px 15px 0px 15px;
     }
@@ -135,13 +209,13 @@
 }
 .question-woman {
   position: relative;
-  @media (max-width: 426px) {
+  @media (max-width: 769px) {
     gap: 25px;
     display: flex;
     flex-direction: column-reverse;
   }
   .question-woman__name-block {
-    @media (max-width: 426px) {
+    @media (max-width: 769px) {
       position: relative;
       top: 0;
     }
@@ -181,12 +255,12 @@
   .question {
     text-align: center;
     &-block__question-bait {
-      padding: 0px 0px 0px 25px;
+      padding: 0px 25px 0px 25px;
     }
   }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 769px) {
   .wrapper {
     justify-content: center;
   }

@@ -4,6 +4,11 @@ import woman from './images/woman.png'
 export const Ask_A_Question = () => {
 	return <section className="ask-a-question question">
 		<div className="wrapper">
+			<div className="leaf-image">
+				<i />
+				<i />
+				<i />
+			</div>
 			<div className="question-block">
 				<div className="question-block__question-bait">
 					<h2 className="question-bait__overhead bait-overhead">Кто будет готовить?</h2>

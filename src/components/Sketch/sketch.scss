@@ -14,6 +14,8 @@
       background-image: url('../berry.png');
       background-repeat: no-repeat;
       background-position: center;
+      background-size: contain;
+      object-fit: cover;
       top: 200px;
       right: 0;
       filter: blur(6.5px);
@@ -28,8 +30,8 @@
       background-image: url('../leaf.png');
       background-repeat: no-repeat;
       background-position: center;
-      object-fit: cover;
       background-size: contain;
+      object-fit: cover;
       top: 390px;
       left: 0;
       filter: blur(7px);
@@ -200,9 +202,10 @@
     .cloud-block__cloud {
       z-index: -2;
       position: absolute;
+      object-fit: cover;
       width: 100%;
       height: 25%;
-      bottom: 0;
+      bottom: -2px;
       left: 0;
     }
   }
