@@ -1,5 +1,5 @@
 import React from "react";
-import iPhone_Х_Mockup from "./images/iPhone_Х_Mockup.png"
+import iPhone_Х_Mockup from "./images/iPhone_Х_Mockup-resize.png"
 import cloud from "./images/02.png"
 
 

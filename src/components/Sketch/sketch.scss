@@ -6,6 +6,36 @@
     display: flex;
     min-height: 1352px;
     align-items: center;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 152px;
+      background-image: url('../../../public/berry.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 200px;
+      left: 512px;
+      filter: blur(6.5px);
+      transform: rotate(-139.84deg);
+      z-index: -2;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      width: 110px;
+      height: 110px;
+      background-image: url('../../../public/leaf.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: cover;
+      background-size: contain;
+      top: 390px;
+      left: 0;
+      filter: blur(7px);
+      transform: rotate(90deg);
+      z-index: -2;
+    }
     @media (max-width: 426px) {
       min-height: 1000px;
       img {
