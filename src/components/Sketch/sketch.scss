@@ -9,13 +9,13 @@
     &::after {
       content: '';
       position: absolute;
-      width: 100%;
+      width: 152px;
       height: 152px;
       background-image: url('../berry.png');
       background-repeat: no-repeat;
       background-position: center;
       top: 200px;
-      left: 512px;
+      right: 0;
       filter: blur(6.5px);
       transform: rotate(-139.84deg);
       z-index: -2;
