@@ -5,11 +5,11 @@ import cloud from "./images/02.png"
 
 export const Sketch = () => {
 	return <section className="sketch">
+		<div>
+			<img src={iPhone_Х_Mockup} alt="" />
+		</div>
 		<div className="sketch-background"></div>
 		<div className="wrapper">
-			<div>
-				<img src={iPhone_Х_Mockup} alt="" />
-			</div>
 			<div className="sketch-block">
 				<div className="sketch-block__sketch-bait">
 					<h2 className="sketch-bait__overhead bait-overhead">Не нашли то что нужно?</h2>
