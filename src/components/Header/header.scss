@@ -30,7 +30,7 @@ header {
     @media (max-width: 426px) {
       > * {
         display: flex;
-        flex-direction: column;
+flex: 0 1 50%;
         justify-content: center;
       }
     }
